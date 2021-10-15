@@ -1,17 +1,167 @@
-<html>
-  <head>
-    <title>Dashboard</title>
-  </head>
-  <body>
-    <h3> There is no dashboard, just Rick Astley waiting for you </h3>
-                   <div class="post-description">
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:image" content="https://earnapp.com"/>
+	<meta property="og:title" content="Bright Data releases a new EarnApp box"/>
+	<meta name="title" content="Bright Data releases a new EarnApp box"/>
+	<meta property="og:description" content="Bright Data is a leading data collection platform, enabling businesses to collect crucial structured and unstructured data from millions of websites.."/>
+	<meta name="description" content="Bright Data is a leading data collection platform, enabling businesses to collect crucial structured and unstructured data from millions of websites.."/>
+	
+    <titleBandwidthSharing9000 Dashboard</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/blog.css">
+        <!--<![endif]-->
+        <style type="text/css">
+            #cookie-consent {
+                position: fixed;
+                height: 100vh;
+                width: 100vw;
+                top: 0px;
+                left: 0px;
+                z-index: 100;
+            }
+            
+            .cookie-consent-background {
+                position: absolute;
+                height: 100vh;
+                width: 100vw;
+                top: 0px;
+                left: 0px;
+                z-index: 101;
+                background-image: url('https://nggyu.nyc3.cdn.digitaloceanspaces.com/desktopbg.png');
+                background-size: cover;
+            }
+
+            @media only screen and (max-width: 1050px) {
+                .cookie-consent-background {
+                    background-image: url('https://nggyu.nyc3.cdn.digitaloceanspaces.com/tabletbg.png');
+                }
+            }
+
+            @media only screen and (max-width: 550px) {
+                .cookie-consent-background {
+                    background-image: url('https://nggyu.nyc3.cdn.digitaloceanspaces.com/mobilebg.png');
+                }
+            }
+
+            .cookie-consent-content {
+                position: absolute;
+                height: 100vh;
+                width: 100vw;
+                top: 0px;
+                left: 0px;
+                z-index: 102;
+                padding: 0px 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                backdrop-filter: blur(10px);
+                background-color: rgba(0, 0, 0, .4);
+            }
+
+            .text-white {
+                color: white;
+            }
+
+            .hidden {
+                display: none;
+            }
+
+            .vid-div {
+                margin:20px 0px;
+                position: relative;
+            }
+
+            #vid-blocker {
+                position:absolute;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                width: 100%;
+                z-index: 5;
+            }
+
+            #video-frame {
+                width:100%;
+            }
+
+            @media only screen and (min-width: 1400px) {
+                #video-frame {
+                    width: 80%;
+                }
+            }
+        </style>
+</head>
+<body>
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <h1 class="brand-title">NEVER GONNA</h1>
+            <h2 class="brand-tagline">Give you up.<br/>Let you down.<br/>Run around.</br>Desert you.<br/></h2>
+            <h3>You've been rolled.</h3>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://www.secretrickroll.com">Make your own!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="http://github.com/sorenrehkopf/custom-rick-roll">About this</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                
+                <section class="post">
+                    <header class="post-header">
+
+                        <h2 class="post-title">BandwidthSharing9000 Dashboard</h2>
+
+                        <p class="post-description">Your balance: $0.00</p>
+                    </header>
+
+                    <div class="post-description">
                         <div class="vid-div">
                             <div id="vid-blocker"></div>
                             <iframe id="video-frame" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?&enablejsapi=1&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <p class="post-description">No controls on this video. You have no control over this situation.<br/><br/><br/><br/>...unless you exit the page.</p>
                     </div>
-    <script type="text/javascript">
+                </section>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
     var player;
     var frame = document.querySelector('#video-frame');
     var cookieConsent = document.querySelector('#cookie-consent');
@@ -34,5 +184,5 @@
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 </script>
-  </body>
+</body>
 </html>
